@@ -1,0 +1,207 @@
+Step 1: Add Devices
+
+Open Cisco Packet Tracer.
+
+Go to Network Devices → Wireless Devices.
+
+Select WRT300N (Wireless Router) and drag it into the workspace.
+
+Go to End Devices.
+
+Add three laptops to the workspace.
+
+Step 2: Configure Wireless Router
+
+Click WRT300N Wireless Router.
+
+Open the GUI tab.
+
+Select Wireless → Basic Wireless Settings.
+
+Configure the following:
+
+Network Mode: Mixed
+
+Network Name (SSID): College_wifi
+
+Standard Channel: 6
+
+SSID Broadcast: Enabled
+
+Click Save Settings.
+
+Step 3: Configure WPA2-PSK Security
+
+Go to Wireless → Wireless Security.
+
+Select Security Mode: WPA2 Personal.
+
+Select Encryption: AES.
+
+Enter Passphrase: college12345.
+
+Click Save Settings.
+
+Step 4: Install Wireless Adapter in Laptop 1
+
+Click Laptop 1.
+
+Open the Physical tab.
+
+Switch OFF the laptop using its power button.
+
+Select WPC300N from the module list.
+
+Drag and drop WPC300N into the empty module slot.
+
+Switch ON the laptop.
+
+Step 5: Configure Other Laptops
+Repeat Step 4 for Laptop 2 and Laptop 3 to install the WPC300N wireless adapter.
+
+Step 6: Connect Laptop 1 to Wireless Router
+
+Click Laptop 1.
+
+Open Desktop → PC Wireless.
+
+Select the Connect tab.
+
+Select College_wifi from the available wireless networks.
+
+Click Connect.
+
+Select WPA2-Personal if prompted.
+
+Enter the password college12345.
+
+Click Connect.
+
+Step 7: Connect Laptop 2 and Laptop 3
+Repeat Step 6 for Laptop 2 and Laptop 3 using the same SSID and password.
+
+Step 8: Assign IP Addresses
+
+Click Laptop 1.
+
+Open Desktop → IP Configuration.
+
+Select DHCP.
+
+Check the automatically assigned IP address.
+
+Repeat for Laptop 2 and Laptop 3.
+
+Step 9: Test Connectivity Using Ping
+
+Open Laptop 1 → Desktop → Command Prompt.
+
+Enter ping 192.168.0.1 to test connectivity with the wireless router.
+
+Ping the IP addresses of Laptop 2 and Laptop 3.
+
+Check whether successful replies are received.
+
+Step 10: Test Unauthorized Access
+
+Open PC Wireless → Connect on a laptop.
+
+Select College_wifi.
+
+Enter an incorrect password, such as wrong12345.
+
+Click Connect.
+
+Verify that the laptop cannot connect using the incorrect password.
+
+Observation Table
+
+Sr. No.
+
+Parameter
+
+Observation
+
+1
+
+Wireless Router
+
+WRT300N
+
+2
+
+Number of Laptops
+
+3
+
+3
+
+SSID
+
+College_wifi
+
+4
+
+Network Mode
+
+Mixed
+
+5
+
+Channel Number
+
+6
+
+6
+
+SSID Broadcast
+
+Enabled
+
+7
+
+Security Mode
+
+WPA2-PSK
+
+8
+
+Encryption
+
+AES
+
+9
+
+Security Key
+
+college12345
+
+10
+
+Laptop 1 IP Address
+
+Actual IP
+
+11
+
+Laptop 2 IP Address
+
+Actual IP
+
+12
+
+Laptop 3 IP Address
+
+Actual IP
+
+13
+
+Ping Test
+
+Successful
+
+14
+
+Unauthorized Access
+
+Rejected
