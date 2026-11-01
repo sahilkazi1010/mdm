@@ -1,0 +1,82 @@
+Step 1: Add Devices
+
+Open Cisco Packet Tracer.
+
+Go to Network Devices → Wireless Devices.
+
+Select Home Gateway and drag it into the workspace.
+
+Go to End Devices → Home.
+
+Add Smart Lamp, Ceiling Fan and Smart Window.
+
+Add one Smartphone from End Devices.
+
+Step 2: Configure Home Gateway
+
+Click Home Gateway.
+
+Open the Config tab.
+
+Select Wireless.
+
+Change the SSID to Zigbee.
+
+Keep the default authentication settings. Do not configure WPA2-PSK.
+
+Step 3: Configure Smart Lamp
+
+Click Smart Lamp.
+
+Open the Config tab.
+
+Select Wireless0.
+
+Change the SSID to Zigbee.
+
+Go to Settings.
+
+Under IoT Server, select Home Gateway.
+
+Step 4: Configure Other IoT Devices
+Repeat Step 3 for the following devices:
+
+Ceiling Fan
+
+Smart Window
+
+Make sure the SSID is Zigbee and IoT Server is set to Home Gateway for each device.
+
+Step 5: Configure Smartphone
+
+Click Smartphone.
+
+Open the Config tab.
+
+Select Wireless0.
+
+Enter the SSID Zigbee.
+
+Connect the smartphone to the Home Gateway.
+
+Step 6: Open IoT Monitor
+
+Click Smartphone.
+
+Open the Desktop tab.
+
+Select IoT Monitor.
+
+Log in if prompted.
+
+Check whether Smart Lamp, Ceiling Fan and Smart Window are displayed.
+
+Step 7: Control IoT Devices
+
+Select Smart Lamp and turn it ON and OFF.
+
+Select Ceiling Fan and turn it ON and OFF or change its speed.
+
+Select Smart Window and open or close it.
+
+Verify that all devices respond to the commands.
